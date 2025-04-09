@@ -48,6 +48,6 @@ server.delete('/clientes/:id', async (request, reply) => {
 })
 
 server.listen({
-    port: process.env.port ?? 3333,
+    port: process.env.port ?? 3333
 })
 
