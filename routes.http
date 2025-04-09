@@ -1,6 +1,6 @@
 ### criar 
 
-POST http://localhost:3333/clientes
+POST https://node-do-zero-0r4l.onrender.com/clientes
 Content-Type: application/json
 
 {
@@ -10,11 +10,11 @@ Content-Type: application/json
 
 ### listar (?search=Lucas - para filtrar uma busca)
 
-GET http://localhost:3333/clientes
+GET https://node-do-zero-0r4l.onrender.com/clientes
 
 ### atualizar 
 
-PUT http://localhost:3333/clientes/
+PUT https://node-do-zero-0r4l.onrender.com/clientes/
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ### deletar
 
-DELETE http://localhost:3333/clientes/f9b5e598-df1d-4eba-8d0f-fda9d40da109
+DELETE https://node-do-zero-0r4l.onrender.com/clientes/f9b5e598-df1d-4eba-8d0f-fda9d40da109
