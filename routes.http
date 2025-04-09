@@ -1,0 +1,27 @@
+### criar 
+
+POST http://localhost:3333/clientes
+Content-Type: application/json
+
+{
+    "name": "Lucas Oliveira",
+    "description": "Esse é o primeiro cliente"
+}
+
+### listar (?search=Lucas - para filtrar uma busca)
+
+GET http://localhost:3333/clientes
+
+### atualizar 
+
+PUT http://localhost:3333/clientes/
+Content-Type: application/json
+
+{
+    "name": "Lorena meu amor",
+    "description": "Esse é o primeiro cliente"
+}
+
+### deletar
+
+DELETE http://localhost:3333/clientes/f9b5e598-df1d-4eba-8d0f-fda9d40da109
